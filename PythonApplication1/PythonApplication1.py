@@ -4,7 +4,7 @@ import pandas as pd
 # Typically "\" is an escape character in a string and messes up the file paths.
 from pathlib import Path
 # Copy the path of the folder to the Path object. Make sure to replace all "\" with "/" first.
-data_folder = Path('C:/Users/TE349468/Desktop')
+data_folder = Path('C:/Users/<username>/Desktop')
 # Apend the file name onto the end of the folder path with a "/" in between
 file_to_open = data_folder / "us-state-capitals.csv"
 # Import the data frame.
